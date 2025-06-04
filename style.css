@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+    
+    user-select: none;
+   
+    
+}
+
+
+table {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    background-image: url(gaylipe.png);
+    border-radius: 1px;
+    padding:5px ;
+    
+
+
+
+
+}
+
+
+
+/* tr:nth-child(3n) {
+
+background-color: aqua;
+box-shadow: 1px 1px 1px;?
+
+} */
+
+td {
+border-radius: 5px;
+box-shadow: 1px 1px 1px;
+text-shadow: 2px 2px 2px rgb(255, 4, 4) ;
+transition: transform 0.3s;
+
+    
+}
+
+td:hover {
+background-color: black;
+color: white;
+text-shadow: 2px 2px 2px rgb(255, 4, 4) ;
+overflow: text;
+transform: scale(1.2);
+
+}
+
+section {
+display: flex;
+flex-direction: column;
+border-radius: 20px;
+border: 20px 20px;
+border-color: black;
+background-color: black;
+align-items: center;
+width: 90%;
+height: 90% ;
+}
+
+hr {
+
+
+    width: 87%;
+}
+
+h2, p {
+color: aliceblue;
+font-family: 'Poppins', Courier, monospace;
+
+
+}
+
+table, video, audio {
+width: 50%;
+height: 50%;
+
+}
+
+
+
+
+
